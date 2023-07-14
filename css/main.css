@@ -41,7 +41,7 @@ body {
   .menu li {
     display: inline-block;
     font-weight: bold;
-    font-size: 38px;
+    font-size: 28px;
     padding-left: 50px;
     padding-right: 50px;
   }
@@ -66,4 +66,144 @@ body {
   .navbar a:hover{
     background-color:aquamarine;
   }
+
+  /* Banner Styles */
+.banner {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  background-color: darkblue;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: -7%;
+  
+}
+
+.banner h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: left;
+  margin-left: 50px;
+}
+
+.banner p {
+  font-size: 18px;
+  margin-bottom: -60px;
+  margin-left: -245px;
+}
+
+.shop-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff8c00;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: flex-end;
+  margin-right: 100px;
+}
+
+.shop-button:hover {
+  background-color: #ff6600;
+}
+
+
+
+/* Horizontal Images Styles */
+.horizontal-images img {
+  float: left;
+  display: inline-block;
+  width: 33.33%;
+  vertical-align: top;
+  box-sizing: border-box;
+  margin-top: 165px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Banner Background Styles */
+.promo-banner {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  margin-top: 100px;
+  border-color: #ff6600;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.buttons {
+  margin-top: 10px  ;
+  margin-left: 50%;
+}
+
+.buttons .button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  margin-right: 30px;
+  background-color: #ff8c00;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.buttons .button:hover {
+  background-color: #ff6600;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #f8f8f8;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-left img {
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.footer-left a {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.footer-right p {
+  margin-bottom: 10px;
+}
+
+.footer-right img {
+  height: 20px;
+  margin-right: 5px;
+}
+
+.footer-bottom {
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+}
 
